@@ -69,5 +69,5 @@ This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSD
 
 
 ## Contact
-- YONGMIN: kymin1002@kaist.ac.kr
+- Yongmin: kymin1002@kaist.ac.kr
 - Olivia: oo2703@kaist.ac.kr
