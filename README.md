@@ -33,6 +33,7 @@ cd KAIST_CS492_DeepImplicitTemplates
 3. Evaluation.ipynb               : Evaluate the result by EMD, CD metrics.
 - You need to download [ShapeNetCore.v2](https://shapenet.org/) for evaluation.
 - If you download the ShapeNet data, please put the data in gt folder.
+
 ![image](https://user-images.githubusercontent.com/74032553/172082907-fd6e7100-b28e-4a6a-aadf-33cbfb2b1749.png)
 
 
@@ -48,4 +49,8 @@ This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSD
 
 ## [NOTE]
 * If you have a problem about 'pip install easydict', please git clone this [project](https://github.com/makinacorpus/easydict).
-* 
+
+
+## Contact
+- YONGMIN: kymin1002@kaist.ac.kr
+- Olivia: oo2703@kaist.ac.kr
