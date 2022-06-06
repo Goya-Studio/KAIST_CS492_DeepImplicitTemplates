@@ -4,7 +4,8 @@ import sys
 
 from OpenGL.GL import *
 from OpenGL.GLU import *
-
+# Code from the ShapeGAN Project and mesh2sdf
+# https://github.com/marian42/shapegan
 class Shader(object):
     def initShader(self, vertex_shader_source, fragment_shader_source):
         self.program = glCreateProgram()
