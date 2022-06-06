@@ -7,12 +7,13 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 
 ## Requirements
 * Ubuntu(v18.04)
-* numpy
+* numpy // 1.22.3
 * edict
-* Pytorch
+* Pytorch // 1.9.0+cu111
 * plyfile
-* ninja
-* pathos
+* ninja // 1.10.2.3
+* pathos // 0.2.8
+* trimesh // 3.10.2
 * pyrender
 * tensorboardX
 
@@ -27,7 +28,5 @@ This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSD
 ## Citation
 * [DeepSDF](https://github.com/facebookresearch/DeepSDF)
 * [Deep Implicit Templates](https://github.com/ZhengZerong/DeepImplicitTemplates)
-* [ShapeGAN](https://github.com/marian42/shapegan)
 * [mesh2sdf](https://github.com/marian42/mesh_to_sdf)
 * [ShapeNetCore.v2](https://shapenet.org/)
-s
