@@ -8,6 +8,8 @@ import pygame.image
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
+# Code from the ShapeGAN Project and mesh2sdf
+# https://github.com/marian42/shapegan
 import numpy as np
 
 from rendering.binary_voxels_to_mesh import create_binary_voxel_mesh
