@@ -29,7 +29,7 @@ cd KAIST_CS492_DeepImplicitTemplates
 ```
 
 1. Deep Implicit Templates.ipynb  : Implement and train DIT model.
-2. Reconstruction.ipynbb          : Reconstruct a shape using trained model.(latent code train again.)
+2. Reconstruction.ipynb           : Reconstruct a shape using trained model.(latent code train again.)
 3. Evaluation.ipynb               : Evaluate the result by EMD, CD metrics.
 - You need to download [ShapeNetCore.v2](https://shapenet.org/) for evaluation.
 - If you download the ShapeNet data, please put the data in gt folder.
