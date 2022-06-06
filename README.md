@@ -11,15 +11,25 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 * edict
 * Pytorch // 1.9.0+cu111
 * plyfile
+* sklearn // 0.24.1
 * ninja // 1.10.2.3
 * pathos // 0.2.8
 * trimesh // 3.10.2
-* pyrender
-* tensorboardX
+* skimage // 0.19.2
+* pyrender // 0.1.45
+* tqdm
+* os
 
 ## Implementataion
-
-* Data Sample & Pre-trained Model [Gdrive Link](https://drive.google.com/drive/folders/1lshhJJNP_lbVG9BQjM0eME7x3JvPyEME?usp=sharing)
+ A benchmark dataset of our project is [ShapeNetCore.v2](https://shapenet.org/). And you can download preprocessed datasets(SDF files) and pre-trained model from this [Gdrive Link](https://drive.google.com/drive/folders/1lshhJJNP_lbVG9BQjM0eME7x3JvPyEME?usp=sharing).
+ 
+'''
+git clone https://github.com/Goya-Studio/KAIST_CS492_DeepImplicitTemplates.git
+cd KAIST_CS492_DeepImplicitTemplates
+'''
+1. Deep Implicit Templates.ipynb  : Implement and train DIT model.
+2. Reconstruction.ipynbb          : Reconstruct a shape using trained model.
+3. Evaluation.ipynb               : Evaluate the result by EMD, CD metrics.
 
 ## Acknowledgements
 
