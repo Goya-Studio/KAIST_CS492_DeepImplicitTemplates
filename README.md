@@ -32,11 +32,13 @@ cd KAIST_CS492_DeepImplicitTemplates
 2. Reconstruction.ipynbb          : Reconstruct a shape using trained model.
 3. Evaluation.ipynb               : Evaluate the result by EMD, CD metrics.
 - You need to download [ShapeNetCore.v2](https://shapenet.org/) for evaluation.
-- 
+- If you download the ShapeNet data, please put the data in gt folder.
+![image](https://user-images.githubusercontent.com/74032553/172082907-fd6e7100-b28e-4a6a-aadf-33cbfb2b1749.png)
+
 
 ## Acknowledgements
 
-This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSDF) and [Deep Implicit Templates](https://github.com/ZhengZerong/DeepImplicitTemplates). And we use the [mesh2sdf](https://github.com/marian42/mesh_to_sdf) project to preprocess the data. $Thank you all!$ 
+This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSDF) and [Deep Implicit Templates](https://github.com/ZhengZerong/DeepImplicitTemplates). And we use the [mesh2sdf](https://github.com/marian42/mesh_to_sdf) project to preprocess the data. Thank you all!
 
 ## Reference Project
 * [DeepSDF](https://github.com/facebookresearch/DeepSDF)
