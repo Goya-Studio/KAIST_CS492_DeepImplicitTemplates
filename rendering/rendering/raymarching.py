@@ -10,7 +10,8 @@ from model.sdf_net import SDFNet, LATENT_CODES_FILENAME
 from util import device, ensure_directory
 from rendering.math import get_camera_transform
 from scipy.spatial.transform import Rotation
-
+# Code from the ShapeGAN Project and mesh2sdf
+# https://github.com/marian42/shapegan
 BATCH_SIZE = 100000
 
 def get_default_coordinates():
