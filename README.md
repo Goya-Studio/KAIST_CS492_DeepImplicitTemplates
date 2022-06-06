@@ -30,3 +30,4 @@ This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSD
 * [ShapeGAN](https://github.com/marian42/shapegan)
 * [mesh2sdf](https://github.com/marian42/mesh_to_sdf)
 * [ShapeNetCore.v2](https://shapenet.org/)
+s
