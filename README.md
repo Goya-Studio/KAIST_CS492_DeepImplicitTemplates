@@ -7,15 +7,15 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 ## Requirements
 * Ubuntu(v18.04)
 * numpy // 1.22.3
-* edict
 * Pytorch // 1.9.0+cu111
-* plyfile
 * sklearn // 0.24.1
 * ninja // 1.10.2.3
 * pathos // 0.2.8
 * trimesh // 3.10.2
 * skimage // 0.19.2
 * pyrender // 0.1.45
+* plyfile
+* edict
 * tqdm
 * os
 
@@ -34,8 +34,11 @@ cd KAIST_CS492_DeepImplicitTemplates
 
 This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSDF) and [Deep Implicit Templates](https://github.com/ZhengZerong/DeepImplicitTemplates). And we use the [mesh2sdf](https://github.com/marian42/mesh_to_sdf) project to preprocess the data. Thank you all! 
 
-## Citation
+## Reference Project
 * [DeepSDF](https://github.com/facebookresearch/DeepSDF)
 * [Deep Implicit Templates](https://github.com/ZhengZerong/DeepImplicitTemplates)
 * [mesh2sdf](https://github.com/marian42/mesh_to_sdf)
 * [ShapeNetCore.v2](https://shapenet.org/)
+
+## [NOTE]
+
