@@ -29,7 +29,7 @@ For Data Preprocessing
 
 ## Data Preprocessing
 
-Our preprocessing code is highly based on mesh2sdf project and [ShapeGAN](https://github.com/marian42/shapegan). It takes about 1-2 days to preprocess the all SDF files. So we prepared preprocessed dataset in [Gdrive Link](https://drive.google.com/drive/folders/1lshhJJNP_lbVG9BQjM0eME7x3JvPyEME?usp=sharing). You can easily download and try it.
+Our preprocessing code is highly based on mesh2sdf project and [ShapeGAN](https://github.com/marian42/shapegan). It takes about 1-2 days to preprocess the all SDF files. So we prepared preprocessed dataset(04256520.egg) in [Gdrive Link](https://drive.google.com/drive/folders/1lshhJJNP_lbVG9BQjM0eME7x3JvPyEME?usp=sharing). You can easily download and try it.
 
 
 ```
