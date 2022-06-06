@@ -15,11 +15,17 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 * skimage // 0.19.2
 * pyrender // 0.1.45
 * scipy // 1.8.0
-* mesh_to_sdf
 * plyfile
 * easydict
 * tqdm
 * os
+
+For Data Preprocessing
+* pyopengl // 3.1.0
+* pygame // 2.1.2
+* mesh_to_sdf // 0.0.14
+* opencv-python // 4.5.5.64
+* 
 
 ## Data Preprocessing
 
