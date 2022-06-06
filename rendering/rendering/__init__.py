@@ -5,6 +5,8 @@ from pygame.locals import *
 from OpenGL.arrays import vbo
 import pygame.image
 
+# Code from the ShapeGAN Project and mesh2sdf
+# https://github.com/marian42/shapegan
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
