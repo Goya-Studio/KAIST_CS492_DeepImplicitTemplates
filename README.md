@@ -23,10 +23,10 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 ## Implementataion
  A benchmark dataset of our project is [ShapeNetCore.v2](https://shapenet.org/). And you can download preprocessed datasets(SDF files) and pre-trained model from this [Gdrive Link](https://drive.google.com/drive/folders/1lshhJJNP_lbVG9BQjM0eME7x3JvPyEME?usp=sharing).
  
-'''
+```
 git clone https://github.com/Goya-Studio/KAIST_CS492_DeepImplicitTemplates.git
 cd KAIST_CS492_DeepImplicitTemplates
-'''
+```
 1. Deep Implicit Templates.ipynb  : Implement and train DIT model.
 2. Reconstruction.ipynbb          : Reconstruct a shape using trained model.
 3. Evaluation.ipynb               : Evaluate the result by EMD, CD metrics.
