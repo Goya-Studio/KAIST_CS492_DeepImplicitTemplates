@@ -19,6 +19,8 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 * easydict
 * tqdm
 * os
+## Data Preprocessing
+Our preprocessing code is highly based on mesh2sdf project and [ShapeGAN](https://github.com/marian42/shapegan). 
 
 ## Implementataion
  A benchmark dataset of our project is [ShapeNetCore.v2](https://shapenet.org/). And you can download preprocessed datasets(SDF files) and pre-trained model from this [Gdrive Link](https://drive.google.com/drive/folders/1lshhJJNP_lbVG9BQjM0eME7x3JvPyEME?usp=sharing).
@@ -34,7 +36,7 @@ cd KAIST_CS492_DeepImplicitTemplates
 - You need to download [ShapeNetCore.v2](https://shapenet.org/) for evaluation.
 - If you download the ShapeNet data, please put the data in gt folder.
 
-![image](https://user-images.githubusercontent.com/74032553/172082907-fd6e7100-b28e-4a6a-aadf-33cbfb2b1749.png)
+   ![image](https://user-images.githubusercontent.com/74032553/172082907-fd6e7100-b28e-4a6a-aadf-33cbfb2b1749.png)
 
 
 ## Acknowledgements
@@ -45,6 +47,7 @@ This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSD
 * [DeepSDF](https://github.com/facebookresearch/DeepSDF)
 * [Deep Implicit Templates](https://github.com/ZhengZerong/DeepImplicitTemplates)
 * [mesh2sdf](https://github.com/marian42/mesh_to_sdf)
+* [ShapeGAN](https://github.com/marian42/shapegan)
 * [ShapeNetCore.v2](https://shapenet.org/)
 
 ## [NOTE]
