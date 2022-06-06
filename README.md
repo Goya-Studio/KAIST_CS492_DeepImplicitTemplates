@@ -14,8 +14,9 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 * trimesh // 3.10.2
 * skimage // 0.19.2
 * pyrender // 0.1.45
+* scipy // 1.8.0
 * plyfile
-* edict
+* easydict
 * tqdm
 * os
 
@@ -26,13 +27,16 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 git clone https://github.com/Goya-Studio/KAIST_CS492_DeepImplicitTemplates.git
 cd KAIST_CS492_DeepImplicitTemplates
 ```
+
 1. Deep Implicit Templates.ipynb  : Implement and train DIT model.
 2. Reconstruction.ipynbb          : Reconstruct a shape using trained model.
 3. Evaluation.ipynb               : Evaluate the result by EMD, CD metrics.
+- You need to download [ShapeNetCore.v2](https://shapenet.org/) for evaluation.
+- 
 
 ## Acknowledgements
 
-This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSDF) and [Deep Implicit Templates](https://github.com/ZhengZerong/DeepImplicitTemplates). And we use the [mesh2sdf](https://github.com/marian42/mesh_to_sdf) project to preprocess the data. Thank you all! 
+This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSDF) and [Deep Implicit Templates](https://github.com/ZhengZerong/DeepImplicitTemplates). And we use the [mesh2sdf](https://github.com/marian42/mesh_to_sdf) project to preprocess the data. $Thank you all!$ 
 
 ## Reference Project
 * [DeepSDF](https://github.com/facebookresearch/DeepSDF)
@@ -41,4 +45,5 @@ This repository is based on [DeepSDF](https://github.com/facebookresearch/DeepSD
 * [ShapeNetCore.v2](https://shapenet.org/)
 
 ## [NOTE]
-
+* If you have a problem about 'pip install easydict', please git clone this [project](https://github.com/makinacorpus/easydict).
+* 
