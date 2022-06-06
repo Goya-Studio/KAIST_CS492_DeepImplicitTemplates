@@ -1,6 +1,5 @@
-# -KAIST-CS492-DeepImplicitTemplates
-
-KAIST CS492 Assignment
+# KAIST_CS492_DeepImplicitTemplates
+KAIST CS492(A) Assignment
 
 This repository is an implementation for [Deep Implicit Templates](http://www.liuyebin.com/dit/dit.html). 
 And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565). 
