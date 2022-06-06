@@ -15,12 +15,20 @@ And the paper is [Deep Implicit Templates](https://arxiv.org/abs/2011.14565).
 * skimage // 0.19.2
 * pyrender // 0.1.45
 * scipy // 1.8.0
+* mesh_to_sdf
 * plyfile
 * easydict
 * tqdm
 * os
+
 ## Data Preprocessing
-Our preprocessing code is highly based on mesh2sdf project and [ShapeGAN](https://github.com/marian42/shapegan). 
+
+Our preprocessing code is highly based on mesh2sdf project and [ShapeGAN](https://github.com/marian42/shapegan).
+
+
+```
+python prepare_data_dir-pn.py
+```
 
 ## Implementataion
  A benchmark dataset of our project is [ShapeNetCore.v2](https://shapenet.org/). And you can download preprocessed datasets(SDF files) and pre-trained model from this [Gdrive Link](https://drive.google.com/drive/folders/1lshhJJNP_lbVG9BQjM0eME7x3JvPyEME?usp=sharing).
